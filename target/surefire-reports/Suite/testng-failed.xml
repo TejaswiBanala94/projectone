@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <test thread-count="5" name="Test(failed)" verbose="0">
+    <classes>
+      <class name="amazon.ProjectOne.Testcase4_EditProfile">
+        <methods>
+          <include name="editprfle"/>
+          <include name="quit_browser"/>
+          <include name="launch_browser"/>
+        </methods>
+      </class> <!-- amazon.ProjectOne.Testcase4_EditProfile -->
+      <class name="amazon.ProjectOne.Testcase8_sortby_Relevance_Price_Rating">
+        <methods>
+          <include name="quit_browser"/>
+          <include name="launch_browser"/>
+          <include name="sortbyprice"/>
+        </methods>
+      </class> <!-- amazon.ProjectOne.Testcase8_sortby_Relevance_Price_Rating -->
+      <class name="amazon.ProjectOne.Testcase13_Couponcode">
+        <methods>
+          <include name="couponcode"/>
+          <include name="quit_browser"/>
+          <include name="launch_browser"/>
+        </methods>
+      </class> <!-- amazon.ProjectOne.Testcase13_Couponcode -->
+      <class name="amazon.ProjectOne.Testcase10_CartQuantitles">
+        <methods>
+          <include name="cartquantity"/>
+          <include name="quit_browser"/>
+          <include name="launch_browser"/>
+        </methods>
+      </class> <!-- amazon.ProjectOne.Testcase10_CartQuantitles -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

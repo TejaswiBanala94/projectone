@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="amazon.ProjectOne.Testcase7_Productdetailspage"/>
+      <class name="amazon.ProjectOne.Testcase9_addingToCart"/>
+      <class name="amazon.ProjectOne.Testcase15_ReachCartPage"/>
+      <class name="amazon.ProjectOne.Testcase12_Paymentmethod"/>
+      <class name="amazon.ProjectOne.Testcase6_searchingWithFilters"/>
+      <class name="amazon.ProjectOne.Testcase8_sortby_Relevance_Price_Rating"/>
+      <class name="amazon.ProjectOne.Testcase2_for_Loginwith_CorrectCredentials"/>
+      <class name="amazon.ProjectOne.Testcase5_searchingshoe"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
